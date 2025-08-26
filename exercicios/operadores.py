@@ -1,4 +1,4 @@
-numero = int (input("Insira um número de 1 a 3: "))
+numero = int (input("Insira um número de 1 a 3:"))
 
 if numero == 1:
     print("Bom dia")
