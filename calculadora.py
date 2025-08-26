@@ -5,10 +5,8 @@ print("""Selecione o tipo de operação que deseja efetuar:
 [4] Divisão""")
 calculadora = float(input("Selecione o tipo de operação que deseja efetuar: "))
 
-
 numero1 = float(input("Insira o primeiro número: "))
 numero2 = float(input("Insira o segundo número: "))
-
 
 soma = numero1 + numero2
 subtracao = numero1 - numero2
