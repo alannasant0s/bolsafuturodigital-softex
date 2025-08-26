@@ -18,8 +18,8 @@ if calculadora == 1 :
 elif calculadora == 2 :
     print(f"O resultado da subtração dos números é: {subtracao}")
 elif calculadora == 3 :
-    print(f"O resultado da divisão dos números é: {multiplicacao}")
+    print(f"O resultado da multiplicação dos números é: {multiplicacao}")
 elif calculadora == 4 :
-    print(f"O resultado da multiplicação dos números é: {divisao}")
+    print(f"O resultado da divisão dos números é: {divisao}")
 else:
     print("Insira uma opção válida")
