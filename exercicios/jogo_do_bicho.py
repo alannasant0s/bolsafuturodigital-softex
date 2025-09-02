@@ -3,7 +3,7 @@ import random
 print("""Bem vindo ao Jogo do Bicho 🐊 🦓 🐎
 Aqui todos os seus sonhos são valorizados!""")
 
-lista_bicho = ["Avestruz", "Águia", "Burro", "Borboleta", "Cachorro", "Cabra", "Carneiro", "Camelo", "Cobra", "Coelho", "Cavalo", "Elefante", "Galo", "Gato", "Jacaré", "Leão", "Macaco", "Porco", "Pavão", "Peru", "Touro", "Tigre", "Urso", "Veado", "Vaca"]
+lista_bicho = ["Avestruz", "Águia", "Burro", "Borboleta", "Cachorro", "Cabra", "Carneiro", "Camelo","Cobra", "Coelho", "Cavalo", "Elefante", "Galo", "Gato", "Jacaré", "Leão", "Macaco","Porco", "Pavão", "Peru", "Touro", "Tigre", "Urso", "Veado", "Vaca"]
 
 bicho_sorteado_numero = random.randint(1, 25)
 
@@ -23,10 +23,8 @@ while tentativas < 5:
         print("Você errou, tente novamente.")
 
     tentativas += 1
-    nome_bicho_sorteado = lista_bicho[bicho_sorteado_numero - 1]
-
-
+    
 if not acertou:
     print("\nSuas tentativas acabaram!")
-
-print(f"O bicho sorteado era o número {bicho_sorteado_numero} {nome_bicho_sorteado}")
+nome_bicho_sorteado = lista_bicho[bicho_sorteado_numero - 1]
+print(f"O bicho sorteado era o número {bicho_sorteado_numero} ({nome_bicho_sorteado})")
