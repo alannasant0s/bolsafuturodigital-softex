@@ -23,8 +23,10 @@ while tentativas < 5:
         print("Você errou, tente novamente.")
 
     tentativas += 1
+    nome_bicho_sorteado = lista_bicho[bicho_sorteado_numero - 1]
+
 
 if not acertou:
     print("\nSuas tentativas acabaram!")
 
-print(f"O bicho sorteado era o número {bicho_sorteado_numero}")
+print(f"O bicho sorteado era o número {bicho_sorteado_numero} {nome_bicho_sorteado}")
