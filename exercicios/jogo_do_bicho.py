@@ -11,7 +11,6 @@ tentativas = 0
 acertou = False 
 print("Você tem 5 tentativas.")
 
-
 while tentativas < 5:
     
     bicho_escolhido = int(input(f"Tentativa {tentativas + 1}/5 - Escolha um bicho de 1 a 25: "))
@@ -28,4 +27,4 @@ while tentativas < 5:
 if not acertou:
     print("\nSuas tentativas acabaram!")
 
-print(f"O bicho sorteado era o número {bicho_sorteado_numero}: {nome_bicho_sorteado}")
+print(f"O bicho sorteado era o número {bicho_sorteado_numero}")
