@@ -1,4 +1,11 @@
-def mostrar_saudacao():
-    print("Olá, seja bem vindo")
+def menu_banco():
+    print("""|==============================|
+|     BANCO NOSSO DINHEIRO     |
+|==============================|                  
+|        1 - Saldo             |
+|        2 - Depósito          |
+|        3 - Saque             |
+|        4 - Sair              |
+|==============================|""")
 
-mostrar_saudacao()
+menu_banco()
