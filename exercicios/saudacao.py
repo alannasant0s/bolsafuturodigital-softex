@@ -2,9 +2,9 @@ def menu_banco():
     print("""|==============================|
 |     BANCO NOSSO DINHEIRO     |
 |==============================|                  
-|        1 - Saldo             |
-|        2 - Depósito          |
-|        3 - Saque             |
+|        1 - Ver Saldo         |
+|        2 - Realizar Depósito |
+|        3 - Realizar Saque    |
 |        4 - Sair              |
 |==============================|""")
 
