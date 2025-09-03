@@ -1,5 +1,7 @@
 alunos = []
-print("Bem vindo ao Cadastro de Alunos")
+print("""================================
+|Bem vindo ao Cadastro de Alunos|
+================================""")
 
 while True:
     nome = input("Insira seu nome: ")
