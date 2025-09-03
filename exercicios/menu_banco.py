@@ -1,5 +1,5 @@
-usuario = input("Qual o seu nome? ")
-print(f"Seja bem vindo(a) {usuario}, selecione a operação que deseja realizar")
+def saudacao_personalizada(usuario):
+    print(f"Seja bem vindo(a) {usuario}, selecione a operação que deseja realizar:")
 
 
 def menu_banco():
@@ -12,4 +12,6 @@ def menu_banco():
 |     4 - Sair                 |
 |==============================|""")
 
+usuario = input("Qual o seu nome? ")
+saudacao_personalizada(usuario)
 menu_banco()
