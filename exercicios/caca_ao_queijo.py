@@ -6,7 +6,7 @@ encontrou = False
 resposta = random.randint(1,8)
 
 while contador < 5:
-    palpite_usuario = int(input("""|=============================|
+    palpite_usuario = int(input(f"""|=============================|
 |  JOGO CAÇA AO QUEIJO 🐁🧀   |
 |=============================|
 ONDE O QUEIJO ESTÁ? Selecione a opção:
@@ -18,7 +18,7 @@ ONDE O QUEIJO ESTÁ? Selecione a opção:
 [6] Banheiro
 [7] Cola Rato
 [8] Ratoeira        
-Você tem 5 chances...   
+Você tem {contador + 1}/5 chances...   
 DIGITE O NÚMERO CORRESPONDENTE: """))
 
     if palpite_usuario == resposta:
