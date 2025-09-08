@@ -4,3 +4,4 @@ Este repositório contém todos os exercícios e projetos que estou desenvolvend
 ## Tecnologias:
 - Python
 - Django
+<img width="1148" height="595" alt="image" src="https://github.com/user-attachments/assets/810133fa-5507-443e-8f74-083a8162e78d" />
