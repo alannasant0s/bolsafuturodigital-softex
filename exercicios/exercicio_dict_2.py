@@ -1,16 +1,19 @@
 produtos = {}
 print("Leitura dos dados")	
-cod = input("Digite o código: ")
-while cod != "":
+while True:
+    cod = input("Digite o código: ")
+    if cod =="":
+        break
     if cod in produtos:
         print(f"Erro, o código já está cadastrado. Insira um produto diferente.")
-        cod = input("Digite o código: ")
+        continue
+
     preco = float(input("Insira o valor do produto: "))
     produtos[cod] = preco
-    cod = input("Digite o código: ")
     
 print("Fim da leitura")
 
-for cod in produtos.keys(): 
-    print(f"Produto {cod} custa R$ {produtos[cod]}")
+for cod, preco in produtos.items(): 
+    print(f"Produto {cod} custa R$ {preco:.2f}")
+
 print("\nFim do programa")
