@@ -7,3 +7,7 @@ while cod != "":
     cod = input("Digite o código: ")
 
 print("Fim da leitura")
+print("Preço dos produtos")
+for cod in produtos.keys():
+    print(f"Produto {cod} custa R$ {preco}")
+print("\nFim do programa")
